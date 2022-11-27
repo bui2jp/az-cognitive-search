@@ -1,0 +1,16 @@
+{
+    "name" : "example-mysql-idxr",
+    "dataSourceName" : "example-mysql-ds",
+    "targetIndexName" : "example-mysql-ix",
+    "disabled": null,
+    "schedule": null,
+    "parameters": {
+        "batchSize": null,
+        "maxFailedItems": null,
+        "maxFailedItemsPerBatch": null,
+        "base64EncodeKeys": null,
+        "configuration": { }
+        },
+    "fieldMappings" : [ ],
+    "encryptionKey": null
+}

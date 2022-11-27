@@ -1,0 +1,16 @@
+{   
+    "name" : "example-mysql-ds",
+    "description" : "my example",
+    "type" : "mysql",
+    "credentials" : { 
+        "connectionString" : 
+            "Server=mysql-server001.MySQL.database.azure.com; Port=3306; Database=testdb01; Uid=mysqladmin@mysql-server001; Pwd=P@ssword@123; SslMode=Preferred;" 
+    },
+    "container" : { 
+        "name" : "myexample01" 
+    },
+    "dataChangeDetectionPolicy" : { 
+        "@odata.type": "#Microsoft.Azure.Search.HighWaterMarkChangeDetectionPolicy",
+        "highWaterMarkColumnName": "myid"
+    }
+}

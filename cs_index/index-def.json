@@ -1,0 +1,9 @@
+{
+    "name" : "example-mysql-ix",
+    "fields": [
+        { "name": "myid", "type": "Edm.String", "key": true, "searchable": true },
+        { "name": "remark1", "type": "Edm.String", "searchable": true, "filterable": true },
+        { "name": "remark2", "type": "Edm.String", "searchable": true, "filterable": true, "analyzer": "ja.microsoft" },
+        { "name": "remark3", "type": "Edm.String", "searchable": true, "filterable": true, "analyzer": "ja.lucene" }
+    ]
+}
